@@ -1,34 +1,31 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+<script lang="ts">
+import Header from './components/Header.vue'
+import { defineComponent } from 'vue'
+export default defineComponent({ // 아래있는 내용들을 내보낸다 (객체들을)
+  components:{
+    Header
+  },
+
+  data(){ // 데이터 라는 함수
+    return{ // 아래의 내용들을 반환한다
+      age:0 //  응애!
+    }
+  },
+  methods:{ // 함수를 저장하는 객체
+
+  }
+})
+
+</script >
 
 <template>
   <div class="main">
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" id="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-    <HelloWorld msg="Zed" />
+    <Header/>
+    
+    나는 {{ age }}살로 돌아가고 싶다
   </div>
 </template>
 
 <style scoped>
-.main{
 
-}
-
-#logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-#logo:hover {
-  filter: drop-shadow(-10px 10px 2px #4f49ffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
 </style>
