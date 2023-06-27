@@ -1,4 +1,4 @@
-<script lang="ts">
+<script >
 import Header from './components/Header.vue'
 import { defineComponent } from 'vue'
 export default defineComponent({ // 아래있는 내용들을 내보낸다 (객체들을)
@@ -28,12 +28,12 @@ export default defineComponent({ // 아래있는 내용들을 내보낸다 (객�
 
 <style scoped>
 @font-face {
-    font-family: 'LeeSeoyun';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
-    font-weight: normal;
+    font-family: 'default';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
     font-style: normal;
 }
 .main{
-  font-family: 'LeeSeoyun';
+  font-family: 'default';
 }
 </style>
