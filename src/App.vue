@@ -19,9 +19,9 @@ export default defineComponent({ // 아래있는 내용들을 내보낸다 (객�
 
 <template>
   <v-app>
-
-  <div class="main">
     <Header/>
+  <div class="main">
+    
     <div style="margin-left: 15vw; margin-right: 15vw;">
       <router-view></router-view>
     </div>
@@ -38,6 +38,8 @@ export default defineComponent({ // 아래있는 내용들을 내보낸다 (객�
     font-style: normal;
 }
 .main{
+  background-color: #f9f9f9;
+  height: 100%;
   font-family: 'default';
 }
 </style>
