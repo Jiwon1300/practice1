@@ -14,8 +14,11 @@
       <div style="font-size: 15px; font-weight: 0; cursor: pointer; margin-right: 20px;">
         Night
       </div>
-      <div style="font-size: 15px; font-weight: 0; cursor: pointer; margin-right: 20vw;">
+      <div style="font-size: 15px; font-weight: 0; cursor: pointer; margin-right: 10vw;">
         Wing
+      </div>
+      <div @click="$router.push('/login')" style="font-size: 12px; font-weight: 0; cursor: pointer; margin-right: 10vw;">
+        Login
       </div>
     </div>
   </div>

@@ -18,6 +18,8 @@ export default defineComponent({ // 아래있는 내용들을 내보낸다 (객�
 </script >
 
 <template>
+  <v-app>
+
   <div class="main">
     <Header/>
     <div style="margin-left: 15vw; margin-right: 15vw;">
@@ -25,6 +27,7 @@ export default defineComponent({ // 아래있는 내용들을 내보낸다 (객�
     </div>
 
   </div>
+</v-app>
 </template>
 
 <style scoped>
