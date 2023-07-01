@@ -5,12 +5,14 @@ import { createRouter, createWebHistory } from 'vue-router'
 import MainPage from '../views/MainPage.vue'
 import SubPage from '../views/SubPage.vue'
 import LoginPage from '../views/LoginPage.vue'
+import SignUpPage from '../views/SignUpPage.vue'
 // 2. 경로를 정의하고, 각 경로를 컴포넌트와 매핑.
 // 중첩 경로에 대해서는 나중에 설명함.
 const routes = [
   { path: '/', component: MainPage },
   { path: '/sub', component: SubPage },
   { path: '/login', component: LoginPage },
+  { path: '/SignUp', component: SignUpPage },
 ]
 
 // 3. `routes`를 옵션으로 전달해 라우터 인스턴스를 생성.

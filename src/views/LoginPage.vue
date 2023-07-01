@@ -11,7 +11,7 @@
                     <v-btn style="margin-right: 10px;" color="success" variant="tonal">
                         LogIn
                     </v-btn>
-                    <v-btn style="margin-left: 10px;" color="#9C27B0" variant="tonal">
+                    <v-btn @click="$router.push('/SignUp')" style="margin-left: 10px;" color="#9C27B0" variant="tonal">
                         Sign Up
                     </v-btn>
                 </div>
